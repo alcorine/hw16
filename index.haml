@@ -1,0 +1,385 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{charset:"utf-8"}/
+    %meta{content:"IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{content:"width=device-width, initial-scale=1", :name => "viewport"}/
+    %title Blog
+    / Bootstrap
+    %link{href:"style/bootstrap.min.css", rel:"stylesheet"}/
+    %link{:href => "style/owl.carousel.css", :rel => "stylesheet"}/
+    %link{:href => "style/owl.transitions.css", :rel => "stylesheet"}/
+    %link{:href => "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css", :rel => "stylesheet"}/
+    %link{href:"fonts/styles.css", rel:"stylesheet"}
+    %link{href:"style/main.css", rel:"stylesheet"}/
+    %link{href:"style/media.css", rel:"stylesheet"}/
+  %body
+    %header.header
+      .wrapper.clearfix
+        .navbar-header.navbar-inverse
+          %button.navbar-toggle.collapsed{"data-target" => "#navbar", "data-toggle" => "collapse", type:"button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          .logo.pull-left
+            %a{href:"#"}
+              %img{src:"img/logo.png", width:"115", height:"115", alt:"logo"}
+        #navbar.collapse.navbar-collapse
+          %nav
+            %ul.navbar-nav
+              %li
+                %a{href:"#"} Home
+              %li
+                %a{href:"#"} Portfolio
+              %li
+                %a{href:"#"} Blog
+              %li
+                %a{href:"#"} About Us
+              %li
+                %a{href:"#"} Contact
+
+    %section.slider
+      .wrapper.clearfix
+        #main-slider.main-slider
+          .item
+            .slider-text
+              %h1
+                We believe
+                in quality design
+              %p
+                Any creative project is unique
+                and should be provided with
+                the appropriate quality
+              %a.lrn-btn.hvr-lrn-btn{href:"#"} Order Now
+            %img{:alt => "", :src => "img/slider-photo.png"}/
+          .item
+            .slider-text
+              %h1
+                We believe
+                in quality design
+              %p
+                Any creative project is unique
+                and should be provided with
+                the appropriate quality
+              %a.lrn-btn.hvr-lrn-btn{href:"#"} Order Now
+            %img{:alt => "", :src => "img/slider-photo.png"}/
+          .item
+            .slider-text
+              %h1
+                We believe
+                in quality design
+              %p
+                Any creative project is unique
+                and should be provided with
+                the appropriate quality
+              %a.lrn-btn.hvr-lrn-btn{href:"#"} Order Now
+            %img{:alt => "", :src => "img/slider-photo.png"}/
+          .item
+            .slider-text
+              %h1
+                We believe
+                in quality design
+              %p
+                Any creative project is unique
+                and should be provided with
+                the appropriate quality
+              %a.lrn-btn.hvr-lrn-btn{href:"#"} Order Now
+            %img{:alt => "", :src => "img/slider-photo.png"}/
+          .item
+            .slider-text
+              %h1
+                We believe
+                in quality design
+              %p
+                Any creative project is unique
+                and should be provided with
+                the appropriate quality
+              %a.lrn-btn.hvr-lrn-btn{href:"#"} Order Now
+            %img{:alt => "", :src => "img/slider-photo.png"}/
+    %section.services
+      .wrapper.clearfix
+        %h2 We create quality designs.
+        %p.subtitle We specialize in Web Design / Development and Graphic Design
+        %ul.specialization-list
+          %li
+            .specialization-item
+              .img-cont
+                %img{src:"img/quality-list2.png", width:"110", height:"97", alt:""}
+                %h4
+                  Redesigning
+                  With Personality
+              .arrow_box
+                %p
+                  Lorem ipsum dolor sit amet,
+                  consectetur.
+            .hover-effect
+              .img-cont
+                %img{src:"img/quality-list.jpg", width:"250", height:"208", alt:""}
+              .arrow_box
+                %h4
+                  Redesigning
+                  With Personality
+                %span
+                  in
+                  %a{href:"#"} web design
+          %li
+            .specialization-item
+              .img-cont
+                %img{src:"img/quality-list2.png", width:"110", height:"97", alt:""}
+                %h4
+                  web development
+              .arrow_box
+                %p
+                  Lorem ipsum dolor sit amet,
+                  consectetur.
+            .hover-effect
+              .img-cont
+                %img{src:"img/quality-list.jpg", width:"250", height:"208", alt:""}
+              .arrow_box
+                %h4
+                  web development
+                %span
+                  in
+                  %a{href:"#"} web design
+          %li
+            .specialization-item
+              .img-cont
+                %img{src:"img/quality-list3.png", width:"110", height:"88", alt:""}
+                %h4
+                  web design
+              .arrow_box
+                %p
+                  Lorem ipsum dolor sit amet,
+                  consectetur.
+            .hover-effect
+              .img-cont
+                %img{src:"img/quality-list.jpg", width:"250", height:"208", alt:""}
+              .arrow_box
+                %h4
+                  web design
+                %span
+                  in
+                  %a{href:"#"} web design
+          %li
+            .specialization-item
+              .img-cont
+                %img{src:"img/quality-list4.png", width:"88", height:"110", alt:""}
+                %h4
+                  Graphic Design
+              .arrow_box
+                %p
+                  Lorem ipsum dolor sit amet,
+                  consectetur.
+            .hover-effect
+              .img-cont
+                %img{src:"img/quality-list.jpg", width:"250", height:"208", alt:""}
+              .arrow_box
+                %h4
+                  Graphic Design
+                %span
+                  in
+                  %a{href:"#"} web design
+    %section.our-work
+      .wrapper.clearfix
+        %h2 our work
+        %p.subtitle
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+          sed diam nonummy nibh euismod tincidunt.
+        #container.colagge-cont
+          .item
+            %img{:alt => "", :height => "133", :src => "img/slider-img3.jpg", :width => "265"}/
+          .item
+            %img{:alt => "", :height => "200", :src => "img/slider-img7.jpg", :width => "275"}/
+          .item
+            %img{:alt => "", :height => "404", :src => "img/slider-img.jpg", :width => "534"}/
+          .item
+            %img{:alt => "", :height => "268", :src => "img/slider-img4.jpg", :width => "265"}/
+          .item
+            %img{:alt => "", :height => "183", :src => "img/slider-img5.jpg", :width => "275"}/
+          .item
+            %img{:alt => "", :height => "404", :src => "img/slider-img2.jpg", :width => "534"}/
+          .item
+            %img{:alt => "", :height => "193", :src => "img/slider-img6.jpg", :width => "275"}/
+          .item
+            %img{:alt => "", :height => "268", :src => "img/slider-img8.jpg", :width => "264"}/
+          .item
+            %img{:alt => "", :height => "404", :src => "img/slider-img9.jpg", :width => "534"}/
+          .item
+            %img{:alt => "", :height => "268", :src => "img/slider-img10.jpg", :width => "265"}/
+          .item
+            %img{:alt => "", :height => "268", :src => "img/slider-img11.jpg", :width => "265"}/
+    %section.clients
+      .wrapper.clearfix
+        %h2 our clients
+        %p.subtitle
+          Lorem ipsum dolor sit amet,
+          consectetuer adipiscing elit,
+          sed diam nonummy nibh euismod tincidunt.
+        .slide-wrap
+          #client-slider
+            .item
+              %img{:alt => "", :src => "img/client-img1.jpg"}/
+            .item
+              %img{:alt => "", :src => "img/client-img2.jpg"}/
+            .item
+              %img{:alt => "", :src => "img/client-img3.jpg"}/
+            .item
+              %img{:alt => "", :src => "img/client-img4.jpg"}/
+            .item
+              %img{:alt => "", :src => "img/client-img5.jpg"}/
+            .item
+              %img{:alt => "", :src => "img/client-img6.jpg"}/
+            .item
+              %img{:alt => "", :src => "img/client-img7.jpg"}/
+            .item
+              %img{:alt => "", :src => "img/client-img8.jpg"}/
+            .item
+              %img{:alt => "", :src => "img/client-img1.jpg"}/
+            .item
+              %img{:alt => "", :src => "img/client-img2.jpg"}/
+            .item
+              %img{:alt => "", :src => "img/client-img3.jpg"}/
+            .item
+              %img{:alt => "", :src => "img/client-img4.jpg"}/
+            .item
+              %img{:alt => "", :src => "img/client-img5.jpg"}/
+            .item
+              %img{:alt => "", :src => "img/client-img6.jpg"}/
+            .item
+              %img{:alt => "", :src => "img/client-img7.jpg"}/
+            .item
+              %img{:alt => "", :src => "img/client-img8.jpg"}/
+    %section.contact
+      .wrapper.clearfix
+        %article.about-us
+          %h4 About Us
+          %p
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diam nonummy nibh euismod tincidunt ut
+            laoreet dolore magna aliquam erat volutpat. Ut wisi
+            enim ad minim veniam, quis nostrud exerci tation ullamcorper
+            suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          %a.lrn-btn.hvr-lrn-btn{href:"#"} Learn more
+          %h4 Photo Stream
+          %ul.photo-stream.list-inline
+            %li
+              %a
+                %img{src:"img/photo-stream-1.jpg", alt:"", width:"130", height:"70"}
+            %li
+              %a
+                %img{src:"img/photo-stream-2.jpg", alt:"", width:"130", height:"70"}
+            %li
+              %a
+                %img{src:"img/photo-stream-3.jpg", alt:"", width:"130", height:"70"}
+            %li
+              %a
+                %img{src:"img/photo-stream-4.jpg", alt:"", width:"130", height:"70"}
+            %li
+              %a
+                %img{src:"img/photo-stream-5.jpg", alt:"", width:"130", height:"70"}
+            %li
+              %a
+                %img{src:"img/photo-stream-6.jpg", alt:"", width:"130", height:"70"}
+        %article.scl
+          %h4 Latest tweets
+          %a.twitter-timeline{"data-aria-polite" => "assertive", "data-border-color" => "#FFFFFF", "data-chrome" => "noheader nofooter noborders noscrollbar transparent", "data-link-color" => "#FFEA00", "data-screen-name" => "_developin", "data-show-replies" => "false", "data-theme" => "dark", "data-tweet-limit" => "3", "data-widget-id" => "566553618976083968", :lang => "EN"}
+          %script{:async => "", :charset => "utf-8", :src => "//platform.twitter.com/widgets.js"}
+          %h4.social-title Social Connecting
+          .scl-cont
+            %a.social{:href => "#", :target => "_blank"}
+              .front
+                %i.fa.fa-facebook
+              .back
+                %i.fa.fa-facebook
+            %a.social.social-twitter{:href => "#", :target => "_blank"}
+              .front
+                %i.fa.fa-twitter
+              .back
+                %i.fa.fa-twitter
+            %a.social.social-youtube{:href => "#", :target => "_blank"}
+              .front
+                %i.fa.fa-youtube
+              .back
+                %i.fa.fa-youtube
+            %a.social.social-pinterest{:href => "#", :target => "_blank"}
+              .front
+                %i.fa.fa-pinterest
+              .back
+                %i.fa.fa-pinterest
+            %a.social.social-googleplus{:href => "#", :target => "_blank"}
+              .front
+                %i.fa.fa-google-plus
+              .back
+                %i.fa.fa-google-plus
+            %a.social.social-skype{:href => "#", :target => "_blank"}
+              .front
+                %i.fa.fa-skype
+              .back
+                %i.fa.fa-skype
+            %a.social.social-linkedin{:href => "#", :target => "_blank"}
+              .front
+                %i.fa.fa-linkedin
+              .back
+                %i.fa.fa-linkedin
+            %a.social.social-skype{:href => "#", :target => "_blank"}
+              .front
+                %i.fa.fa-skype
+              .back
+                %i.fa.fa-skype
+            %a.social.social-dribbble{:href => "#", :target => "_blank"}
+              .front
+                %i.fa.fa-dribbble
+              .back
+                %i.fa.fa-dribbble
+        %article.contact-info
+          %h4 Contact Info
+          %address
+            %dl.dl-horizontal
+              %dt.contact-address Address:
+              %dd
+                12569 Saint Patrick des Prés,
+                85000 Paris, France
+              %dt.contact-tel Phone:
+              %dd +38 045 845-45-78
+              %dd +38 045 845-45-79
+              %dt.contact-email E-mail:
+              %dd
+                %a{href:"#"}
+                  freeforwebdesign@gmail.com
+          %h4 Follow Us
+          %p
+            Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry.
+          %form.spam-form
+            %input{type:"email"}
+            %input.spam-email{type:"submit", value:""}
+    %footer.footer
+      .wrapper
+        %span.copyright Copyright 2013
+        %span &#45;
+        %span.copyright FreeForWebDesign.com
+        %span &#45;
+        %span.copyright All Rights Reserved
+        %nav.foot-nav
+          %ul.list-inline
+            %li
+              %a{href:"#"} Home
+            %li
+              %a{href:"#"} Portfolio
+            %li
+              %a{href:"#"} Blog
+            %li
+              %a{href:"#"} About Us
+            %li
+              %a{href:"#"} Contact
+
+
+    / jQuery (necessary for Bootstrap's JavaScript plugins)
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"}
+    / Include all compiled plugins (below), or include individual files as needed
+    %script{:src => "js/bootstrap.min.js"}
+
+    %script{:src => "js/owl.carousel.min.js"}
+    %script{:src => "js/masonry.pkgd.min.js"}
+    %script{:src => "js/main.js"}
